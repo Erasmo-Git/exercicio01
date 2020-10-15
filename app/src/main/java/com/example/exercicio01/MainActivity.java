@@ -49,5 +49,4 @@ public class MainActivity extends AppCompatActivity {
         editTextTexto.setText(" ");
         editTextTexto2.setText(" ");
     }
-
 }
