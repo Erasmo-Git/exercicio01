@@ -38,13 +38,11 @@ public class MainActivity extends AppCompatActivity {
 //        EditText editTextTexto = findViewById(R.id.et_text);
 //        Toast.makeText(MainActivity.this, editTextTexto.getText(), Toast.LENGTH_LONG).show();
 //    }
-
     public void onClicBtnMostrar (View v) {
         EditText editTextTexto = findViewById(R.id.et_text);
         EditText editTextTexto2 = findViewById(R.id.et_text2);
         Toast.makeText( MainActivity.this, "" + editTextTexto.getText() + " " + editTextTexto2.getText(), Toast.LENGTH_LONG).show();
     }
-
     public void onClicBtnDesfazerDigitacao (View v) {
         EditText editTextTexto = findViewById(R.id.et_text);
         EditText editTextTexto2 = findViewById(R.id.et_text2);
