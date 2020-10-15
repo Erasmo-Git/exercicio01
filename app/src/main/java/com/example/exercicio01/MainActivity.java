@@ -8,12 +8,10 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 //        final EditText editTextTexto = findViewById(R.id.et_text);
 //        Button btnMostrar = findViewById(R.id.button01);
 //
